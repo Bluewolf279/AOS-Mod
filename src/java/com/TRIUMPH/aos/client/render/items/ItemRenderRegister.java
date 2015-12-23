@@ -20,6 +20,8 @@ public final class ItemRenderRegister {
 		reg(ModItems.Ender_CrystalChestpiece);
 		reg(ModItems.Ender_CrystalLeggings);
 		reg(ModItems.Ender_CrystalBoots);
+		reg(ModItems.Ender_CrystalShovel);
+		reg(ModItems.Ender_CrystalAxe);
 	}
 
 	public static void reg(Item item) {

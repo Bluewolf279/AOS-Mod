@@ -10,6 +10,8 @@ public class unLocalizedNames {
     public static final String EnderCrystal = "Ender_crystal";
     public static final String EnderCrystalSword = "Ender_crystalSword";
     public static final String EnderCrystalPickaxe ="Ender_CrystalPickaxe";
+    public static final String EnderCrystalShovel = "EnderCrystalShovel";
+    public static final String EnderCrystalAxe = "EnderCrystalAxe";
     public static final String EnderCrystalHelmet = "Ender_CrystalHelmet";
     public static final String EnderCrystalChestplate = "Ender_CrystalChestpiece";
     public static final String EnderCrystalLeggings = "Ender_CrystalLeggings";

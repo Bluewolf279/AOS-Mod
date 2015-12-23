@@ -11,9 +11,7 @@ import net.minecraftforge.fml.common.registry.GameRegistry;
 public class ModItems {
 	public static final CreativeTabs AOStab = new CreativeTabs("aos") {
 		@Override
-		public Item getTabIconItem() {
-			return Ender_crystal;
-		}
+		public Item getTabIconItem() {	return Ender_crystal;	}
 
 	};
 
@@ -22,6 +20,10 @@ public class ModItems {
 	public static Item Ender_crystal;
 	public static Item Ender_crystalSword;
 	public static Item Ender_CrystalPickaxe;
+	public static Item Ender_CrystalShovel;
+	public static Item Ender_CrystalAxe;
+
+
 	public static Item Ender_CrystalHelmet;
 	public static Item Ender_CrystalChestpiece;
 	public static Item Ender_CrystalLeggings;
@@ -35,6 +37,8 @@ public class ModItems {
 		GameRegistry.registerItem(Ender_crystal	= new BasicItem(unLocalizedNames.EnderCrystal), unLocalizedNames.EnderCrystal);
 		GameRegistry.registerItem(Ender_crystalSword = new ItemModSword(unLocalizedNames.EnderCrystalSword,EndercrystalTo), unLocalizedNames.EnderCrystalSword);
 		GameRegistry.registerItem(Ender_CrystalPickaxe = new ItemModPickaxe(unLocalizedNames.EnderCrystalPickaxe,EndercrystalTo), unLocalizedNames.EnderCrystalPickaxe);
+		GameRegistry.registerItem(Ender_CrystalShovel = new ItemModShovel(unLocalizedNames.EnderCrystalShovel,EndercrystalTo), unLocalizedNames.EnderCrystalShovel);
+		GameRegistry.registerItem(Ender_CrystalAxe = new ItemModAxe(unLocalizedNames.EnderCrystalAxe,EndercrystalTo), unLocalizedNames.EnderCrystalAxe);
 
 		GameRegistry.registerItem(Ender_CrystalHelmet = new ItemModArmor(unLocalizedNames.EnderCrystalHelmet,EndercrystalAr,1,0), unLocalizedNames.EnderCrystalHelmet);
 		GameRegistry.registerItem(Ender_CrystalChestpiece = new ItemModArmor(unLocalizedNames.EnderCrystalChestplate,EndercrystalAr,1,1), unLocalizedNames.EnderCrystalChestplate);
