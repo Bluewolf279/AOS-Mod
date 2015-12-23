@@ -1,0 +1,16 @@
+[
+{
+  "modid": "AOS",
+  "name": "AOS",
+  "description": "C:/%USERDIR%/TerminateSuffering.exe",
+  "version": "0.1",
+  "mcversion": "1.8",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["Bluewolf279", "roadkill919"],
+  "credits": "FML",
+  "logoFile": "/aos/AOSLogo3.png",
+  "screenshots": [],
+  "dependencies": ["forge-1.8-11.14.3.1450"]
+}
+]

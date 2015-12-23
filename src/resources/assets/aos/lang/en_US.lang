@@ -1,0 +1,28 @@
+< en_US.lang - English language localization file for mod: AOS >
+
+< Blocks >
+< Template - tile.unlocalizedName.name=name >
+
+tile.GreenStone.name=Green Stone
+tile.BlueGlass.name=Blue Glass
+tile.EnderNuggetOre.name=Ender Ore
+tile.smGreenstone.name=Polished Green Stone
+tile.EnderGreenGlass.name=Ender Green Glass
+tile.roughGreenstone.name=Rough Green Stone
+tile.GreenStone_Brick.name=Green Stone Brick
+< Items >
+< Template - item.unlocalizedName.name=name >
+
+item.tutorial_item.name=Test Item
+item.Poison Arrow.name=Poison Arrow
+item.Ender_nugget.name=Ender Nugget
+item.Ender_crystalSword.name=Ender Crystal Sword
+item.Ender_crystal.name=Ender Crystal
+item.Ender_CrystalPickaxe.name=Ender Crystal Pickaxe
+item.Ender_CrystalHelmet.name=Ender Crystal Helmet
+item.Ender_CrystalChestpiece.name=Ender Crystal Chestplate
+item.Ender_CrystalLeggings.name=Ender Crystal Leggings
+item.Ender_CrystalBoots.name=Ender Crystal Boots
+
+
+itemGroup.AOS=AOS!

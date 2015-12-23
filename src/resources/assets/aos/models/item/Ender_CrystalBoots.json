@@ -1,0 +1,6 @@
+{
+  "parent":"AOS:item/BasicItemTemplate",
+  "textures": {
+    "layer0":"aos:items/Ender_Crystal_Boots"
+  }
+}
