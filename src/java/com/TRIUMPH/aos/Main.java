@@ -11,6 +11,7 @@ import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
 @Mod(modid = Main.MODID, name = Main.MODNAME, version = Main.VERSION)
 //TODO ADD LIQUID TNT
 //TODO ADD BABY DOG THAT TURNS INTO A CREEPER WHEN HURT
+//TODO ADD RANDOM FLOTING PIXELART
 public class Main {
 	public static final String MODID = "aos";
 	public static final String MODNAME = "aos Mod";
