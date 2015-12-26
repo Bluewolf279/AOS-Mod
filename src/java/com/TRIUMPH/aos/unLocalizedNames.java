@@ -16,6 +16,7 @@ public class unLocalizedNames {
     public static final String EnderCrystalChestplate = "Ender_CrystalChestpiece";
     public static final String EnderCrystalLeggings = "Ender_CrystalLeggings";
     public static final String EnderCrystalBoots = "Ender_CrystalBoots";
+    public static final String Throwablespear = "EnderSpear";
 
     //Blocks
     public static final String BlueGlass = "BlueGlass";

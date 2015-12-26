@@ -1,7 +1,7 @@
 {
     "parent": "builtin/generated",
     "textures": {
-        "layer0": "aos:items/Ender_Crystal Shovel"
+        "layer0": "aos:items/Ender_Crystal_Shovel"
     },
     "display": {
         "thirdperson": {

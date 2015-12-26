@@ -22,6 +22,7 @@ public class ModItems {
 	public static Item Ender_CrystalPickaxe;
 	public static Item Ender_CrystalShovel;
 	public static Item Ender_CrystalAxe;
+	//public static Item Throwablespear;
 
 
 	public static Item Ender_CrystalHelmet;
@@ -31,6 +32,7 @@ public class ModItems {
 
 	public static ToolMaterial EndercrystalTo = EnumHelper.addToolMaterial("Ender_crystalTo", 3, 2000, 10.0F, 3.0F, 15);
 	public static ArmorMaterial EndercrystalAr = EnumHelper.addArmorMaterial(unLocalizedNames.EnderCrystal,"aos:EndercrystalAr",33,new int[]{3,8,6,3},15);
+//Ender_Cystal Pickaxe
 	public static void createItem() {
 		GameRegistry.registerItem(Poison_Arrow	= new BasicItem("Poison Arrow"), "Poison Arrow");
 		GameRegistry.registerItem(Ender_nugget	= new BasicItem(unLocalizedNames.EnderNugget), unLocalizedNames.EnderNugget);
@@ -39,6 +41,7 @@ public class ModItems {
 		GameRegistry.registerItem(Ender_CrystalPickaxe = new ItemModPickaxe(unLocalizedNames.EnderCrystalPickaxe,EndercrystalTo), unLocalizedNames.EnderCrystalPickaxe);
 		GameRegistry.registerItem(Ender_CrystalShovel = new ItemModShovel(unLocalizedNames.EnderCrystalShovel,EndercrystalTo), unLocalizedNames.EnderCrystalShovel);
 		GameRegistry.registerItem(Ender_CrystalAxe = new ItemModAxe(unLocalizedNames.EnderCrystalAxe,EndercrystalTo), unLocalizedNames.EnderCrystalAxe);
+		//GameRegistry.registerItem(Throwablespear = new ItemModThrowable(unLocalizedNames.Throwablespear),unLocalizedNames.Throwablespear);
 
 		GameRegistry.registerItem(Ender_CrystalHelmet = new ItemModArmor(unLocalizedNames.EnderCrystalHelmet,EndercrystalAr,1,0), unLocalizedNames.EnderCrystalHelmet);
 		GameRegistry.registerItem(Ender_CrystalChestpiece = new ItemModArmor(unLocalizedNames.EnderCrystalChestplate,EndercrystalAr,1,1), unLocalizedNames.EnderCrystalChestplate);
