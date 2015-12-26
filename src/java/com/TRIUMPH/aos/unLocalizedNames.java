@@ -17,6 +17,15 @@ public class unLocalizedNames {
     public static final String EnderCrystalLeggings = "Ender_CrystalLeggings";
     public static final String EnderCrystalBoots = "Ender_CrystalBoots";
     public static final String Throwablespear = "EnderSpear";
+    public static final String Obsidian_Crystal = "Obsidian_Crystal";
+    public static final String Obsidian_Crystal_Clump = "Obsidian_Crystal_Clump";
+    public static final String Obsidian_Crystal_Sword = "Obsidian_Crystal_Sword";
+    public static final String Obsidian_Crystal_Pickaxe = "Obsidian_Crystal_Pickaxe";
+    public static final String Obsidian_Crystal_Helmet = "Obsidian_Crystal_Helmet";
+    public static final String Obsidian_Crystal_Chestplate = "Obsidian_Crystal_Chestplate";
+    public static final String Obsidian_Crystal_Leggings = "Obsidian_Crystal_Leggings";
+    public static final String Obsidian_Crystal_Boots = "Obsidian_Crystal_Boots";
+
 
     //Blocks
     public static final String BlueGlass = "BlueGlass";

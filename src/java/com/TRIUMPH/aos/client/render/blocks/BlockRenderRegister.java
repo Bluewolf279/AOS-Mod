@@ -14,13 +14,17 @@ public class BlockRenderRegister {
 	
 	public static String modid = Main.MODID;
 	public static void registerBlockRenderer() {
-		registerBasic(ModBlocks.BlueGlass);
-		registerBasic(ModBlocks.EnderNuggetOre);
+		//Basic Blocks
+		registerBasic(ModBlocks.GreenStone_Brick);
 		registerBasic(ModBlocks.GreenStone);
 		registerBasic(ModBlocks.smGreenstone);
 		registerBasic(ModBlocks.roughGreenstone);
+		//Glass
 		registerBasic(ModBlocks.EnderGreenGlass);
-		registerBasic(ModBlocks.GreenStone_Brick);
+		registerBasic(ModBlocks.BlueGlass);
+		//Ore
+		registerBasic(ModBlocks.EnderNuggetOre);
+
 	}
 	
 	public static void registerBasic(Block block) {
