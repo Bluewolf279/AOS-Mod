@@ -14,6 +14,7 @@ import net.minecraftforge.client.model.ModelLoader;
 
 /**
  * Created by Bluewolf on 26/12/2015.
+ *AOS fluid registry file
  */
 public class FluidRenderRegister {
     public static String MODID = Main.MODID;
