@@ -1,5 +1,6 @@
 package com.TRIUMPH.aos.client.render.items;
 
+import com.TRIUMPH.aos.Main;
 import com.TRIUMPH.aos.items.ModItems;
 
 import net.minecraft.client.Minecraft;
@@ -8,7 +9,7 @@ import net.minecraft.item.Item;
 
 public final class ItemRenderRegister {
 
-	public static String modID = "aos";
+	public static String modID = Main.MODID;
 
 	public static void registerItemRenderer() {
 		reg(ModItems.Poison_Arrow);

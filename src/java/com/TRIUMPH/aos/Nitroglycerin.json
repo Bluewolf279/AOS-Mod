@@ -1,0 +1,10 @@
+{
+  "forge_maker":1,
+  "variants": {
+      "model": "forge:fluid",
+      "custom": {
+        "fluid": "testfluid"
+      }
+
+  }
+}

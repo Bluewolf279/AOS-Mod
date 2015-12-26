@@ -26,4 +26,7 @@ public class unLocalizedNames {
     public static final String BrickGreenStone = "GreenStone_Brick";
     public static final String RoughGreenStone = "roughGreenstone";
     public static final String EnderGreenGlass = "EnderGreenGlass";
+
+    //Fluids
+    public static final String FluidNitroglycerin = "Nitroglycerin";
 }
