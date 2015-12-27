@@ -7,7 +7,7 @@ import net.minecraftforge.fluids.Fluid;
 
 /**
  * Created by Bluewolf on 26/12/2015.
- * Fluid Constructor
+ * fluid Constructor
  */
 public class ModBlockFluid extends BlockFluidClassic {
     public ModBlockFluid(String unlocalizedname,Fluid fluid, Material material,int temperatureK) {

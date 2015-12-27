@@ -2,16 +2,12 @@ package com.TRIUMPH.aos.blocks;
 
 import com.TRIUMPH.aos.items.ModItems;
 import net.minecraft.block.material.Material;
-import net.minecraft.client.renderer.texture.IIconCreator;
-import net.minecraftforge.fluids.BlockFluidBase;
 import net.minecraftforge.fluids.BlockFluidClassic;
 import net.minecraftforge.fluids.Fluid;
-import net.minecraftforge.fml.relauncher.Side;
-import net.minecraftforge.fml.relauncher.SideOnly;
 
 /**
  * Created by Bluewolf on 23/12/2015.
- * Fluid Constructor
+ * fluid Constructor
  * Non Functional
  * TODO MAKE FLUID CONSTRUCTOR FUNCTIONAL
  */

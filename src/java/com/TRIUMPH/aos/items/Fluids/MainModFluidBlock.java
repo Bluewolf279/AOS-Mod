@@ -7,7 +7,7 @@ import net.minecraftforge.fml.common.registry.GameRegistry;
 
 /**
  * Created by Bluewolf on 26/12/2015.
- * Fluid Block Base Class
+ * fluid Block Base Class
  */
 public class MainModFluidBlock {
     public static Block Nitroglycerin;
