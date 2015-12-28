@@ -25,7 +25,7 @@ public class FluidRenderRegister {
     }
     //
     public static void regFluid(Block fluidBlock){
-        ModelResourceLocation fluidLocation = new ModelResourceLocation(MODID+":"+fluidBlock.getUnlocalizedName().substring(5));
+        final ModelResourceLocation fluidLocation = new ModelResourceLocation(MODID+":"+fluidBlock.getUnlocalizedName().substring(5));
         Item itmFluid = Item.getItemFromBlock(fluidBlock);
         ModelBakery.addVariantName(itmFluid);
         ModelLoader.setCustomMeshDefinition(itmFluid, new ItemMeshDefinition() {
