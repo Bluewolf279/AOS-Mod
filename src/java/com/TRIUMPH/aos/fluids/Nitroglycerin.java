@@ -9,7 +9,7 @@ import net.minecraftforge.fluids.Fluid;
 
 /**
  * Created by Bluewolf on 28/12/2015.
- * NitroGlycerin block
+ * Liquid Nitroglycerin block
  */
 public class Nitroglycerin extends ModBlockFluid{
 
@@ -21,7 +21,7 @@ public class Nitroglycerin extends ModBlockFluid{
     {
         if (!worldIn.isRemote)
         {
-            worldIn.newExplosion((Entity)null, (double)pos.getX() + 0.5D, (double)pos.getY() + 0.5D, (double)pos.getZ() + 0.5D, 5.0F, true, true);
+            worldIn.newExplosion((Entity)null, (double)pos.getX() + 0.5D, (double)pos.getY() + 0.5D, (double)pos.getZ() + 0.5D, 3.0F, false, true);
         }
     }
 

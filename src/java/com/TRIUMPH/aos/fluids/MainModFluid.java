@@ -11,7 +11,7 @@ import net.minecraftforge.fluids.FluidRegistry;
 public class MainModFluid {
     public static Fluid Nitroglycerin;
     public static void createFluids(){
-        FluidRegistry.registerFluid(Nitroglycerin=new ModFluid(unLocalizedNames.FluidNitroglycerin,0xffffafaf,295,3000));
+        FluidRegistry.registerFluid(Nitroglycerin=new ModFluid(unLocalizedNames.FluidNitroglycerin,0xffffafaf,295,500));
     }
     public int hexToInt(String hex){
         int value = Integer.parseInt(hex, 16);
