@@ -2,8 +2,8 @@ package com.TRIUMPH.aos;
 
 import com.TRIUMPH.aos.blocks.ModBlocks;
 import com.TRIUMPH.aos.crafting.ModCrafting;
-import com.TRIUMPH.aos.items.Fluids.MainModFluid;
-import com.TRIUMPH.aos.items.Fluids.MainModFluidBlock;
+import com.TRIUMPH.aos.fluids.MainModFluid;
+import com.TRIUMPH.aos.fluids.MainModFluidBlock;
 import com.TRIUMPH.aos.items.ModItems;
 import com.TRIUMPH.aos.world.AOSWorldGen;
 

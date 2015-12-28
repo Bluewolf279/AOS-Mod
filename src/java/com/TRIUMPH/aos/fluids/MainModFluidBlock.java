@@ -1,8 +1,7 @@
-package com.TRIUMPH.aos.items.Fluids;
+package com.TRIUMPH.aos.fluids;
 
 import com.TRIUMPH.aos.unLocalizedNames;
 import net.minecraft.block.Block;
-import net.minecraft.block.material.Material;
 import net.minecraftforge.fml.common.registry.GameRegistry;
 
 /**
@@ -12,6 +11,6 @@ import net.minecraftforge.fml.common.registry.GameRegistry;
 public class MainModFluidBlock {
     public static Block Nitroglycerin;
     public static void createFluidBlocks(){
-        GameRegistry.registerBlock(Nitroglycerin = new ModBlockFluid(unLocalizedNames.FluidNitroglycerin,MainModFluid.Nitroglycerin, Material.water,295),unLocalizedNames.FluidNitroglycerin);
+        GameRegistry.registerBlock(Nitroglycerin = new Nitroglycerin(unLocalizedNames.FluidNitroglycerin,MainModFluid.Nitroglycerin),unLocalizedNames.FluidNitroglycerin);
     }
 }

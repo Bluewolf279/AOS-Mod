@@ -1,7 +1,7 @@
 package com.TRIUMPH.aos.client.render.Fluid;
 
 import com.TRIUMPH.aos.Main;
-import com.TRIUMPH.aos.items.Fluids.MainModFluidBlock;
+import com.TRIUMPH.aos.fluids.MainModFluidBlock;
 import net.minecraft.block.Block;
 import net.minecraft.block.state.IBlockState;
 import net.minecraft.client.renderer.ItemMeshDefinition;

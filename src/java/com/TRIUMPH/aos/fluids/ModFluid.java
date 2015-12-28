@@ -1,4 +1,4 @@
-package com.TRIUMPH.aos.items.Fluids;
+package com.TRIUMPH.aos.fluids;
 
 import com.TRIUMPH.aos.Main;
 import net.minecraft.util.ResourceLocation;
@@ -13,7 +13,7 @@ public class ModFluid extends Fluid{
         private int fluidColor;
         public ModFluid(String fluidName, int Color,int temperatureK,int viscosity){
 
-            super(fluidName, new ResourceLocation(Main.MODID+":"+fluidName+"_still"),new ResourceLocation(Main.MODID+":"+fluidName+"_flow"));
+            super(fluidName, new ResourceLocation(Main.MODID+":blocks/fluid/"+fluidName+"_still"),new ResourceLocation(Main.MODID+":blocks/fluid/"+fluidName+"_flow"));
             System.out.println(fluidName.toLowerCase());
             this.setTemperature(temperatureK);
             this.setViscosity(viscosity);

@@ -1,4 +1,4 @@
-package com.TRIUMPH.aos.items.Fluids;
+package com.TRIUMPH.aos.fluids;
 
 import com.TRIUMPH.aos.items.ModItems;
 import net.minecraft.block.material.Material;
