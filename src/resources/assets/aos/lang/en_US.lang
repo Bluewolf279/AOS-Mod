@@ -10,6 +10,7 @@ tile.smGreenstone.name=Polished Green Stone
 tile.EnderGreenGlass.name=Ender Green Glass
 tile.roughGreenstone.name=Rough Green Stone
 tile.GreenStone_Brick.name=Green Stone Brick
+tile.Nitroglycerin.name=Liquid Nitroglycerin
 < Items >
 < Template - item.unlocalizedName.name=name >
 
