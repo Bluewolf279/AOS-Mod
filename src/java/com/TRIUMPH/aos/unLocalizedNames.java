@@ -8,19 +8,22 @@ public class unLocalizedNames {
     //Items
     public static final String EnderNugget = "Ender_nugget";
     public static final String EnderCrystal = "Ender_crystal";
+    public static final String Obsidian_Crystal = "Obsidian_Crystal";
+    public static final String Obsidian_Crystal_Clump = "Obsidian_Crystal_Clump";
+    public static final String LiquidNitrogenBucket = "LiquidNitroglycerinBucket";
+    //Tools
+    public static final String Obsidian_Crystal_Sword = "Obsidian_Crystal_Sword";
+    public static final String Obsidian_Crystal_Pickaxe = "Obsidian_Crystal_Pickaxe";
     public static final String EnderCrystalSword = "Ender_crystalSword";
     public static final String EnderCrystalPickaxe ="Ender_CrystalPickaxe";
     public static final String EnderCrystalShovel = "EnderCrystalShovel";
     public static final String EnderCrystalAxe = "EnderCrystalAxe";
+    public static final String Throwablespear = "EnderSpear";
+    //Armor
     public static final String EnderCrystalHelmet = "Ender_CrystalHelmet";
     public static final String EnderCrystalChestplate = "Ender_CrystalChestpiece";
     public static final String EnderCrystalLeggings = "Ender_CrystalLeggings";
     public static final String EnderCrystalBoots = "Ender_CrystalBoots";
-    public static final String Throwablespear = "EnderSpear";
-    public static final String Obsidian_Crystal = "Obsidian_Crystal";
-    public static final String Obsidian_Crystal_Clump = "Obsidian_Crystal_Clump";
-    public static final String Obsidian_Crystal_Sword = "Obsidian_Crystal_Sword";
-    public static final String Obsidian_Crystal_Pickaxe = "Obsidian_Crystal_Pickaxe";
     public static final String Obsidian_Crystal_Helmet = "Obsidian_Crystal_Helmet";
     public static final String Obsidian_Crystal_Chestplate = "Obsidian_Crystal_Chestplate";
     public static final String Obsidian_Crystal_Leggings = "Obsidian_Crystal_Leggings";

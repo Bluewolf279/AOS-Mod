@@ -1,12 +1,12 @@
 package com.TRIUMPH.aos.crafting;
 
 import com.TRIUMPH.aos.blocks.ModBlocks;
+import com.TRIUMPH.aos.fluids.MainModFluid;
 import com.TRIUMPH.aos.items.ModItems;
-
 import net.minecraft.init.Blocks;
 import net.minecraft.init.Items;
 import net.minecraft.item.ItemStack;
-import net.minecraftforge.fml.common.registry.GameRegistry;
+import net.minecraftforge.fluids.FluidContainerRegistry;
 
 import static net.minecraftforge.fml.common.registry.GameRegistry.*;
 
@@ -31,6 +31,9 @@ public class ModCrafting {
 		addShapelessRecipe(new ItemStack(ModBlocks.GreenStone,1),ModBlocks.smGreenstone);
 		addShapelessRecipe(new ItemStack(ModBlocks.GreenStone,1),ModBlocks.roughGreenstone);
 		addShapelessRecipe(new ItemStack(ModItems.Ender_nugget,9), ModItems.Ender_crystal);
+
+
+		FluidContainerRegistry.registerFluidContainer(MainModFluid.Nitroglycerin, new ItemStack(ModItems.LiquidNitrogenBucket),new ItemStack(Items.bucket));
 	}
 	public static void initSmelting(){
 		addSmelting(ModBlocks.EnderNuggetOre, new ItemStack(ModItems.Ender_crystal), 2.0f);

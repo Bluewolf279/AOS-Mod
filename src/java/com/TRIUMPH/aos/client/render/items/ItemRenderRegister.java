@@ -14,6 +14,7 @@ public final class ItemRenderRegister {
 	public static void registerItemRenderer() {
 		//Basic Item
 		reg(ModItems.Poison_Arrow);
+		reg(ModItems.LiquidNitrogenBucket);
 		//[EnderCrystal]
 		reg(ModItems.Ender_nugget);
 		reg(ModItems.Ender_crystal);

@@ -15,6 +15,7 @@ public class Nitroglycerin extends ModBlockFluid{
 
     public Nitroglycerin(String unlocalizedname, Fluid fluid) {
         super(unlocalizedname, fluid, Material.water, 295);
+        this.setDensity(1000);
     }
 
     public void onBlockDestroyedByExplosion(World worldIn, BlockPos pos, Explosion explosionIn)

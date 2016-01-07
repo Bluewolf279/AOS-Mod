@@ -1,5 +1,6 @@
 package com.TRIUMPH.aos.items;
 
+import com.TRIUMPH.aos.fluids.MainModFluidBlock;
 import com.TRIUMPH.aos.unLocalizedNames;
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.item.Item;
@@ -26,6 +27,7 @@ public class ModItems {
 	public static Item Obsidian_Crystal_Clump;
 	public static Item Obsidian_Crystal_Pickaxe;
 	public static Item Obsidian_Crystal_Sword;
+	public static Item LiquidNitrogenBucket;
 
 	//public static Item Throwablespear;
 
@@ -53,6 +55,7 @@ public class ModItems {
 		GameRegistry.registerItem(Ender_CrystalShovel = new ItemModShovel(unLocalizedNames.EnderCrystalShovel,EndercrystalTo), unLocalizedNames.EnderCrystalShovel);
 		GameRegistry.registerItem(Ender_CrystalAxe = new ItemModAxe(unLocalizedNames.EnderCrystalAxe,EndercrystalTo), unLocalizedNames.EnderCrystalAxe);
 		//GameRegistry.registerItem(Throwablespear = new ItemModThrowable(unLocalizedNames.Throwablespear),unLocalizedNames.Throwablespear);
+		GameRegistry.registerItem(LiquidNitrogenBucket = new ItemModBucket(unLocalizedNames.LiquidNitrogenBucket, MainModFluidBlock.Nitroglycerin),unLocalizedNames.LiquidNitrogenBucket);
 
 		GameRegistry.registerItem(Obsidian_Crystal = new BasicItem(unLocalizedNames.Obsidian_Crystal), unLocalizedNames.Obsidian_Crystal);
 		GameRegistry.registerItem(Obsidian_Crystal_Clump = new BasicItem(unLocalizedNames.Obsidian_Crystal_Clump), unLocalizedNames.Obsidian_Crystal_Clump);

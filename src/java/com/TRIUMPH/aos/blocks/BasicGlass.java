@@ -1,10 +1,10 @@
 package com.TRIUMPH.aos.blocks;
 
-import java.util.Random;
-
 import com.TRIUMPH.aos.items.ModItems;
 import net.minecraft.block.BlockGlass;
 import net.minecraft.block.material.Material;
+
+import java.util.Random;
 
 public class BasicGlass extends BlockGlass {
 	private static boolean ignoreSimilarity;
@@ -16,9 +16,6 @@ public class BasicGlass extends BlockGlass {
 		this.setHardness(hardness);
 		this.setResistance(resistance);
 		this.setLightOpacity(1);
-		this.isVisuallyOpaque();
-		this.isTranslucent();
-		this.isOpaqueCube();
 		this.getHarvestTool(null);
 		this.quantityDropped(RANDOM);
 	}
